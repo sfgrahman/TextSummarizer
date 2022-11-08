@@ -5,6 +5,7 @@ import textwrap
 import re
 from decouple import config
 
+#openai key
 openai.api_key = config('OPENAI_API_KEY')
 
 def open_file(filepath):
